@@ -2,6 +2,6 @@
 
 echo "enter three numbers :: "
 read a b c
-result=$(($c+$a/$b))
+result=$(($a%$b/$c))
  echo result
 
